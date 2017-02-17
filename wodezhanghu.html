@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>我的账户</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
+        <link href="css/common.css" rel="stylesheet" type="text/css"/>
+        <link href="css/master.css" rel="stylesheet" type="text/css"/>
+        <script src="js/master.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <!--head-->
+        <div class="head">
+            <div class="header">
+                <div class="header-left">
+                    <img src="images/icon-phone.png" alt=""/>
+                    欢迎致电:400-101-7660
+                    <img src="images/icon-weibo.png" alt=""/>
+                    <img src="images/icon-weixin.png" alt=""/>
+                </div>
+                <ul class="header-right">
+                    <li><a href="#">活动中心</a></li>
+                    <li><a href="#">免费注册</a></li>
+                    <li><a href="#">立即登陆</a></li>
+                    <li><a href="#">下载客户端</a></li>
+                    <li><a href="#">回到旧版</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                </ul>
+            </div><!--<header>-->
+        </div><!--head-->
+
+        <!--subnav次导航-->
+        <div class="subnav">
+            <div class="subnav-center">
+                <div class="logo">
+                    <img src="images/logo.png" alt=""/>
+                </div> 
+                <ul class="subnav-right">
+                    <li><a href="index.html">首&nbsp;&nbsp;页</a></li>
+                    <li><a href="woyaotuozi.html">我要投资</a></li>
+                    <li><a href="#">安全保障</a></li>
+                    <li><a href="#">新手指导</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="wodezhanghu.html">我的账户</a></li>
+                </ul>  
+            </div> 
+        </div><!--subnanv-->
+
+        <!--所在位置-->
+        <div class="location-c">
+            <div class="center-c">您所在的位置：首页》用户登录</div>
+        </div>
+        <!--main-c-->
+        <div class="main-c">
+            <div class="main-c-center">
+                <img style="float:left;" src="images/zhanghu.jpg" alt=""/>
+                <div class="box-c">
+                    <p class="login-c">欢迎登陆&nbsp;&nbsp;&nbsp;&nbsp;还没有账号？<a href="#">立即注册</a></p>
+                    <input class="txt-c" type="text" placeholder="手机号码" value="" onclick="checkPhoneNum()"/>
+                    <input class="pwd-c" type="password" placeholder="请输入6-20位数字字母组合密码" value="" onclick="verifyPassword()"/>
+                    <div class="select-c"><input type="checkbox" checked/>记住用户名
+                        <p style="float:right;"><a style="color:#fb8201;" href="#"> 忘记密码？</a></p>
+                    </div>
+                    <div class="loginbar-c">立即登录</div>
+                </div>
+            </div>
+        </div>
+
+        <!--foot-->
+        <div class="foot">
+            <div class="footer">
+                <div class="foot-left">
+                    <div style="display:block;width:730px;height:125px;">
+                        <div class="first-1">
+                            <span style="font-size:20px;">金投手理财</span>
+                            <ul>
+                                <li>金随心计划</li>
+                                <li>定期理财</li>
+                                <li>最新活动</li>
+                                <li>关于我们</li>
+                            </ul>
+                        </div>
+                        <div class="first-2">
+                            <span style="font-size:20px;">安全信誉</span>
+                            <ul>
+                                <li>国资平台</li>
+                                <li>业务模式</li>
+                                <li>媒体报道</li>
+                                <li>法律声明</li>
+                            </ul>
+                        </div>
+                        <div class="first-3">
+                            <span style="font-size:20px;">用心服务</span>
+                            <ul>
+                                <li>行业动态</li>
+                                <li>新闻公告</li>
+                                <li>网站地图</li>
+                                <li>联系我们</li>
+                            </ul>
+                        </div>
+                        <!--二维码-->
+                        <div class="first-4">
+                            <span style="font-size:20px;">APP应用下载</span>
+                            <img src="images/img-12-1.jpg" alt=""/>
+                        </div>
+                        <div class="first-5">
+                            <span style="font-size:20px;">微信公众号</span>
+                            <img src="images/img-12-2.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <p style="width:730px;height:100px;margin-top: 70px;">友情链接： 网贷之家 |  网贷天眼 |  网贷导航网 |  网贷快讯 |  互联网百科 |  网贷铺子<br/>
+                        ©2016 金投手 All rights reserved | 金投手金融信息服务(北京)有限公司  | 京ICP证150631号 | 京ICP备15002289号<br/>
+                        金投手金融信息服务(北京)有限公司  版权所有 | 投资有风险，购买需谨慎</p>
+                </div>foot-left
+                <div class="foot-right">
+                    <div style="width:250px;height:200px;">
+                        <p style="float:right;">(工作日9:00-18:00) 在线客服</p><br/>
+                        <p style="float:right;">400-101-7660<br/></p>
+                        <p style="float:right;">理财交流QQ群2：438637916（已满）<br/></p>
+                        <p style="float:right;">客服邮箱：kf@jtoushou.co<br/></p>
+                    </div>
+                    <div style="width:156px;height:46px;float:right;">
+                        <img src="images/img-13.jpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
